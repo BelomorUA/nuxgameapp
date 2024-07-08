@@ -1,0 +1,44 @@
+.link-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.link-container a {
+    display: block;
+    margin: 1rem 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
+.link{
+    cursor: pointer;
+    color: blue;
+}
+.link:hover{
+    text-decoration: underline;
+}
+#response{
+    height: 40px;
+    color: darkred;
+}
+#history_container{
+    width: 100%;
+    height: 90px;
+    display: none;
+}
+#history_container table{
+    width: 100%;
+    border: 1px solid;
+}
+#history_container table td{
+    border: 1px solid;
+}
